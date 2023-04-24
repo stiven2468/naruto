@@ -1,0 +1,262 @@
+
+<!-- Los comentarios a lo largo del codigo son muy importantes nos ayudan  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>NARUTO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons --> 
+
+
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->t
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>NARUTO </b></h1>
+    <h6>Bienvenidos a <span class="w3-tag">NARUTO</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header  id="home">
+    <img class="w3-image" src="./imagenes/450_1000.png" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">Y</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>¿El MEJOR HOKAGE</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">INCRESAR</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3> el que quiere cumplir sus metas </h3>
+          <h5>Su sueño es bolberse hokage
+              <span class="w3-opacity">y lo cumplira</span>
+          </h5>
+        </div>
+
+        <div class="w3-justify">
+          
+          <p><strong> NARUTO es un niño problematico!</strong>Que juro en su nombre combertirse en el mejor hokage de todos uno en el que las personas puedan confiar nadi le tenia esperansas solo su mentor que lo crio y sus dos maestros con los cuales entrenaria para se fuerte y no permitir que dañen a sus seres queridos.
+
+            hauque eso pueda costarle la vida par jamas arepentirse de no aber echo algo que pudo aber ayudado a sus amigos el no tenia familia ya que sus padres murieron cuando el era un bebe por el sorro de nueve colos llamado curama el cual reside en el interir de naruto sellado curama es un ser echo de odio que con el tiempo junto a naruto ha logrado calmar su ira ser bueno.
+            
+            conforme abansa la trama se nos ban presentando mas personajes que ayudaran a naruto ha abansar en el futuro, y naruto aprendera a conbibir con su odio y con curama para no perder el control y liberar todo su poder y el de su fiel compañero curama para benser a todo oponente que se les cruse por el camino.. </p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none"><hr><div class="w3-col l2 m3"></div><img src="" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>sasuke <span class="w3-opacity w3-medium"></span></h4>
+                <p>si benso a naruto sere capas de soltar todos mis lasos </p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>hijo de naruto y hinata</h3>
+          <h5>el protector, <span class="w3-opacity"></span></h5>
+        </div>
+
+        <div class="w3-justify">
+        
+          
+          <p><strong>boruto</strong> Un gran ninja!</p>
+          <p>boruto, es un niño que le encanta hacer trabesuras pero es muy inteligente no se deja engañar por otros y es capas de dar su vida si es por sus amigos y su aldea es el hijo del actual hokage naruto.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>kakashi<span class="w3-opacity w3-medium"></span></h4>
+                <p>perdon por la demora es que me perdi por el camino de la vida.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>naruto <span class="w3-opacity w3-medium"></span></h4>
+                <p>sakura te amooo.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>sakura <span class="w3-opacity w3-medium"></span></h4>
+                <p>sasuke es el mejor!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+  
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Post de dialogos</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="./imagenes/jiraiya.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+
+            <span class="w3-large">jiraiya</span>
+            <br>
+            <span>mira esas chicas tan bonitas deberia ir a ablarles, jejeje</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="./imagenes/kakashi.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">kakashi</span>
+            <br>
+            <span>sera mejor que te pongas a entrenar si quieres protejer a todos</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="./imagenes/R.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">sasuke</span>
+            <br>
+            <span>no me llebaras de buelta a la aldea naruto</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="./imagenes/sakura.png" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">sakura</span>
+            <br>
+            <span>deja de molestar naruto</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+     
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Tags</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Manga</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">naruto</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">aldea de las hojas</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Anime</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">amistad</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">guerra</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">abentura</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ragnarok</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">itachi</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">comedia</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Kakashi Hatake</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">venganza</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">sobrenatural</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">chakra</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Inspiration</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+      
+            <p><alt="anime" style="width:100%" class="w3-grayscale"></p>
+            <p><alt="manga" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container " style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
